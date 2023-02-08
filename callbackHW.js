@@ -13,7 +13,7 @@ function redButton(button) {
     setTimeout(function() {
         button.style.backgroundColor = 'red';
         button.style.color = 'white';
-        button.innerHTML = 'Changed'
+        button.innerHTML = 'Changed';
     }, delay);
 };
 
