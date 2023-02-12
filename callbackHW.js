@@ -14,6 +14,8 @@ function redButton(button) {
         button.style.backgroundColor = 'red';
         button.style.color = 'white';
         button.innerHTML = 'Changed';
+        button.classList.add("animated");
+        button.style.boxShadow = '2px 2px 2px 1px rgba(0, 0, 0, 0.2)';
     }, delay);
 };
 
